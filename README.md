@@ -18,7 +18,7 @@ The key components of our approach include partitioning training and testing dat
 
 ## Limitations
 
-Our finding is first fundamentally limited to the modeling methods we included, as there might be other better choices, like XBoost and neural network, which are found to have high prediction accuracy (Yang, 2021). 
+Our finding is first fundamentally limited to the modeling methods we included, as there might be other better choices, like XGBoost and neural network, which are found to have high prediction accuracy (Yang, 2021). 
 
 Secondly, our findings might not be optimal due to the small dataset we had compared to the datasets in other studies. For example, in a paper that predicted Airbnb prices in New York City with sentiment analysis, the dataset had more than 50000 listings (Rezazadeh Kalehbasti et.al, 2021). In another study that aimed to find the best-predicting model for Airbnb prices across cities, each of the three datasets had at least 20000 listings (Luo et.al, 2019). For reference, our dataset contained 7,000 instances. This smaller dataset we used might not provide sufficient and reliable information for robust modeling.
 
