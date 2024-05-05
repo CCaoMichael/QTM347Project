@@ -45,7 +45,7 @@ The basic structure of our project can be found in the following diagram:
 | Elastic Net    | $\alpha$ = 0.01, $L_1$ ratio = 0   | 0.037   |
 | Gradient Boosting    | max_depth=7, min_sample_split=8, n_estimators=140   | 0.18   |
 
-| Model (with Outliers) | Optimal Parameters | Test MSE | Computaional Cost (seconds) |
+| Model (w/o Outliers) | Optimal Parameters | Test MSE | Computaional Cost (seconds) |
 | --------------- | --------------- | --------------- | --------------- | 
 | PCR    | 28 Principle Components   | 0.19 | 250 |
 | Elastic Net    | $\alpha$ = 0.01, $L_1$ ratio = 0   | 0.20   | 32 |
